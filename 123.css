@@ -1,0 +1,130 @@
+body {
+	background-color:
+lightblue;
+}
+
+h1 {
+	color: white;
+	text-align:
+center;
+}
+
+p {
+	color: blue;
+	font-family:
+verdana;
+	font-size: 20px;
+}
+.h2-1
+{
+	color: Tomato;
+	background-color:
+yellow;
+	text-align:
+right;
+	font-size: 10px;
+	font-family:
+Times New Roman;
+}
+.h2-2
+{
+	color: Tomato;
+	background-color:
+lightgray;
+	text-align:
+right;
+	font-size: 20px;
+	font-family:
+Times New Roman;
+}
+.h2-3
+{
+	color: Tomato;
+	background-color:
+lightsalmon;
+	text-align:
+right;
+	font-size: 30px;
+	font-family:
+Times New Roman;
+}
+.h2-4
+{
+	color: Tomato;
+	background-color:
+lime;
+	text-align:
+right;
+	font-size: 35px;
+	font-family:
+Times New Roman;
+}
+.h2-5
+{
+	color: Tomato;
+	background-color:
+green;
+	font-size: 40px;
+	text-align:
+right;
+	font-family:
+Times New Roman;
+}
+
+.a1:link {
+	color:green;
+	background-color: white;
+	text-decoration: none;
+}
+.a1:hover {
+	color: red;
+	background-color:white;
+	text-decoration: underline;
+}
+.a1:active {
+	color: pink;
+}
+.a2:link {
+	color :purple;
+	background-color: white;
+	text-decoration: none;
+}
+.a2:hover {
+	color: orange;
+	background-color:white;
+	text-decoration: underline;
+}
+.a2:active {
+	color: pink;
+}
+.a3:link {
+	border: 3px solid #999;
+	border-radius: 45px;
+	background-color: #f44335;
+	color: pink;
+	padding: 100px 44px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+.a4:link {
+	border: 5px solid #555;
+	border-radius: 45px;
+	background-color: #f41335;
+	color: pink;
+	padding: 19px 44px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+.a5:link {
+	border: 11px solid #111;
+	border-radius: 45px;
+	background-color: #f43335;
+	color: black;
+	padding: 34px 44px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
