@@ -1,170 +1,143 @@
-body {
-	background-color:
-lightblue;
+body 
+{
+	background-color:lightblue;
 }
 
-h1 {
+h1 
+{
 	color: white;
-	text-align:
-center;
+	text-align:center;
 }
 
 p {
 	color: blue;
-	font-family:
-verdana;
+	font-family:verdana;
 	font-size: 20px;
+}
+.h2-1,.h2-2,.h2-3,.h2-4,.h2-5
+{
+	text-align:right;
+	font-family:Times New Roman;
 }
 .h2-1
 {
 	color: Tomato;
-	background-color:
-yellow;
-	text-align:
-right;
+	background-color:yellow;
 	font-size: 10px;
-	font-family:
-Times New Roman;
 }
 .h2-2
 {
-	color: Tomato;
-	background-color:
-lightgray;
-	text-align:
-right;
+	color:Blue;
+	background-color:lightgray;
 	font-size: 20px;
-	font-family:
-Times New Roman;
 }
 .h2-3
 {
 	color: Tomato;
-	background-color:
-lightsalmon;
-	text-align:
-right;
+	background-color:lightsalmon;
 	font-size: 30px;
-	font-family:
-Times New Roman;
 }
 .h2-4
 {
-	color: Tomato;
-	background-color:
-lime;
-	text-align:
-right;
+	color:Blue;
+	background-color:lime;
 	font-size: 35px;
-	font-family:
-Times New Roman;
 }
 .h2-5
 {
 	color: Tomato;
-	background-color:
-green;
+	background-color:green;
 	font-size: 40px;
-	text-align:
-right;
-	font-family:
-Times New Roman;
 }
-
-.a1:link {
+.a1:link,.a2:link
+{
+	background-color: white;
+	text-decoration: none;
+}
+.a1:link 
+{
 	color:green;
-	background-color: white;
-	text-decoration: none;
 }
-.a1:hover {
+.a2:link 
+{
+	color :purple;	
+}
+.a1:hover,.a2:hover
+{
+	background-color:white;
+	text-decoration: underline;
+}
+.a1:hover 
+{
 	color: red;
-	background-color:white;
-	text-decoration: underline;
 }
-.a1:active {
-	color: pink;
-}
-.a2:link {
-	color :purple;
-	background-color: white;
-	text-decoration: none;
-}
-.a2:hover {
+.a2:hover 
+{
 	color: orange;
-	background-color:white;
-	text-decoration: underline;
 }
-.a2:active {
+.a1:active,.a2:active
+{
 	color: pink;
 }
-.a3:link {
-	border: 3px solid #999;
+.a3:link,.a4:link
+{
 	border-radius: 45px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+.a3:link 
+{
+	border: 3px solid #999;
 	background-color: #f44335;
 	color: pink;
 	padding: 100px 44px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
 }
-.a4:link {
+.a4:link 
+{
 	border: 5px solid #555;
-	border-radius: 45px;
 	background-color: #f41335;
 	color: pink;
 	padding: 19px 44px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
 }
-.a5:link {
-	border: 11px solid #111;
-	border-radius: 45px;
-	background-color: #f43335;
-	color: black;
-	padding: 34px 44px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
+.img1,.img2
+{
+	padding: 5px;
+	width: 150px;
 }
 .img1
 {
 	border-radius:8px;
 	border: 1px solid rgb(92, 8, 8);
-    padding: 5px;
-	width: 150px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .img2
 {
 	border-radius:20%;
 	border: 2px solid rgb(186, 189, 24);
-    padding: 5px;
-	width: 150px;
 	box-shadow: 0 4px 8px 0 rgba(95, 47, 47, 0.2), 0 6px 20px 0 rgba(175, 14, 14, 0.19);
+}
+.t1,.t2,.t3,.t4,.t5
+{
+	font-size: 20px;
 }
 .t1
 {
 	color:green;
-	font-size: 20px;
 }
 .t2
 {
 	color:brown;
-	font-size: 20px;
 }
 .t3
 {
 	color:rgb(145, 135, 135);
-	font-size: 20px;
 }
 .t4
 {
 	color:yellowgreen;
-	font-size: 20px;
 }
 .t5
 {
 	color:rgb(177, 69, 83);
-	font-size: 20px;
 }
